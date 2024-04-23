@@ -81,7 +81,7 @@
         /* Styles for h1 on About and Contact pages */
         #about h1,
         #contact h1 {
-            color: #1c704d; /* Blue color for h1 */
+            color: #1c704d;
         }
     </style>
 </head>
@@ -103,7 +103,7 @@
         <!-- Home page content -->
         <h1>Welcome to My Portfolio</h1>
         <p>The about page contains most of the information on this website. I was going to include a picture of the KSU campus that I took, but I couldn't find one on my phone.</p>
-        <p> So insted here is a photo of the Ketchikan sign I took on my honeymoon cruise to Alaska.</p>
+        <p> So instead here is a photo of the Ketchikan sign I took on my honeymoon cruise to Alaska.</p>
         <img id="home-img" src="Ketchikan.jpg" alt="Your Photo">
     </div>
 
@@ -120,14 +120,14 @@
         <!-- Contact page content -->
         <h1>Contact Me</h1>
         <p>Use the form below to get in touch:</p>
-        <form id="contactForm" action="/submit-form" method="post">
+        <form action="connect.php" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br><br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required><br><br>
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-            <input type="submit" value="Submit">
+            <input type="submit" class ="btn btn-primary">
         </form>
     </div>
 

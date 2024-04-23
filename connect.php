@@ -12,7 +12,7 @@
             values(?, ?, ?)");
             $stmt->bind_param("sss", $name, $email,$message);
             $stmt->execute();
-            echo "Registration Sucessful";
+            echo "Registration Successful";
             $stmt->close();
             $conn->close();
     }
